@@ -23,7 +23,7 @@ sed -i 's/192.168.50.1/192.168.50.10/g' package/base-files/files/bin/config_gene
 
 # Replace the default software source
 # sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
-#
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 # ------------------------------- Main source ends -------------------------------
 
 # ------------------------------- Other started -------------------------------
